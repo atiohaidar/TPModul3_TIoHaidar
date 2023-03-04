@@ -23,8 +23,11 @@ namespace WinFormsApp2
             label1.Text = "Anda belum memasukan apa-apa ke textbox";
 
             }
-            label1.Text = "Halo " + inputan;
+            else
+            {
 
+            label1.Text = "Halo " + inputan;
+            }
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
